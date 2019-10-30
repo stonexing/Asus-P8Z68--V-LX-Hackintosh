@@ -1,6 +1,6 @@
 # ASUS P8Z68-V LX Hackintosh 黑苹果相关文件
 ## 简介 
-![截图](screenshot/S4000VA.jpg)
+![截图](screenshot/about.png)
 这是华硕SandyBridge（英特尔6系列主板)的台式机黑苹果相关文件, 这套配置我仅在苹果10.15.1(macOS Catalina和Mojave)上测试完美 本人自己笔记本每个细节都查阅很多资料进行优化 完美度较高。
 
 :warning: :warning: :warning: 
