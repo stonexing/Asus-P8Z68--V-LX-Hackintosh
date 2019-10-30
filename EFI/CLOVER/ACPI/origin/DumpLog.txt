@@ -1,0 +1,69 @@
+71:355  4:078  Found BIOS RSDP at F0450
+71:355  0:000  Saving ACPI tables from RSDP F0450 to EFI\CLOVER\ACPI\origin ...
+71:355  0:000   F0450: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+71:372  0:017    (Xsdt: BEB95078, Rsdt: BEB95028)
+71:372  0:000    BEB95078: 'XSDT', 'A M I', Rev: 1, Len: 108 -> XSDT.aml
+71:378  0:006    BEB95028: 'RSDT', 'A M I', Rev: 1, Len: 72 -> RSDT.aml
+71:384  0:006    Tables in Xsdt: 9
+71:384  0:000    0. BEB9F930: 'FACP', 'A M I', Rev: 4, Len: 244 -> FACP.aml
+71:390  0:006        (Dsdt: BEB95180, Facs: BEBBFF80, XDsdt: BEB95180, XFacs: 0)
+71:390  0:000        BEB95180: 'DSDT', 'A M I', Rev: 2, Len: 42928 -> DSDT.aml
+71:404  0:013        BEBBFF80: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+71:411  0:006    1. BEB9FA28: 'APIC', 'A M I', Rev: 3, Len: 146 -> APIC.aml
+71:417  0:006    2. BEB9FAC0: 'MCFG', 'A M I', Rev: 1, Len: 60 -> MCFG.aml
+71:423  0:006    3. BEB9FB00: 'HPET', 'A M I', Rev: 1, Len: 56 -> HPET.aml
+71:431  0:007    4. BEB9FB38: 'SSDT', 'SataTabl', Rev: 1, Len: 877 -> SSDT-0-SataTabl.aml
+71:434  0:003    5. BEB9FEA8: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2474 -> SSDT-1-Cpu0Ist.aml
+71:438  0:003    6. BEBA0858: 'SSDT', 'CpuPm', Rev: 1, Len: 2706 -> SSDT-2-CpuPm.aml (Found hidden SSDT 4 pcs)
+71:441  0:003        * 2289018: 'SSDT', 'CpuPm', Rev: 1, Len: 2706  53 53 44 54 92 0A 00 00 01 F7 50 6D 52 65 66 00 Internal length = 2706 -> SSDT-x2_0-CpuPm.aml
+71:445  0:003        * BE8EFA98: 'SSDT', 'ApIst', Rev: 1, Len: 771  53 53 44 54 03 03 00 00 01 76 50 6D 52 65 66 00 Internal length = 771 -> SSDT-x2_1-ApIst.aml
+71:448  0:003        * BE8EE018: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 2107  53 53 44 54 3B 08 00 00 01 D8 50 6D 52 65 66 00 Internal length = 2107 -> SSDT-x2_2-Cpu0Cst.aml
+71:452  0:004        * BE8F0C18: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 EC 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x2_3-ApCst.aml
+71:456  0:003  
+71:456  0:000    7. BEBA12F0: 'DMAR', 'SNB', Rev: 1, Len: 176 -> DMAR.aml
+71:459  0:003    8. BEBA13F8: 'BGRT', 'A M I', Rev: 0, Len: 56 -> BGRT.aml
+71:463  0:003    Tables in Rsdt: 9
+71:463  0:000    0. BEB950F8: 'FACP', 'A M I', Rev: 2, Len: 132 -> RSDT-FACP.aml
+71:466  0:003        (Dsdt: BEB95180, Facs: BEBBFF40)
+71:466  0:000        BEB95180: 'DSDT', 'A M I', Rev: 2, Len: 42928
+71:468  0:001        BEBBFF40: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+71:471  0:003    1. BEB9FA28: 'APIC', 'A M I', Rev: 3, Len: 146
+71:471  0:000    2. BEB9FAC0: 'MCFG', 'A M I', Rev: 1, Len: 60
+71:471  0:000    3. BEB9FB00: 'HPET', 'A M I', Rev: 1, Len: 56
+71:471  0:000    4. BEB9FB38: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+71:471  0:000    5. BEB9FEA8: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2474
+71:471  0:000    6. BEBA0858: 'SSDT', 'CpuPm', Rev: 1, Len: 2706
+71:471  0:000    7. BEBA12F0: 'DMAR', 'SNB', Rev: 1, Len: 176
+71:471  0:000    8. BEBA13F8: 'BGRT', 'A M I', Rev: 0, Len: 56
+71:471  0:000  Found UEFI Acpi 2.0 RSDP at 1FEEA000
+71:471  0:000  Printing ACPI tables from RSDP 1FEEA000 ...
+71:471  0:000   1FEEA000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+71:471  0:000    (Xsdt: BEB95078, Rsdt: BEB95028)
+71:471  0:000    BEB95078: 'XSDT', 'A M I', Rev: 1, Len: 108
+71:471  0:000    BEB95028: 'RSDT', 'A M I', Rev: 1, Len: 72
+71:471  0:000    Tables in Xsdt: 9
+71:471  0:000    0. BEB9F930: 'FACP', 'A M I', Rev: 4, Len: 244
+71:471  0:000        (Dsdt: BEB95180, Facs: BEBBFF80, XDsdt: BEB95180, XFacs: 0)
+71:471  0:000        BEB95180: 'DSDT', 'A M I', Rev: 2, Len: 42928
+71:473  0:001        BEBBFF80: 'FACS', Ver: 2, Len: 64
+71:473  0:000    1. BEB9FA28: 'APIC', 'A M I', Rev: 3, Len: 146
+71:473  0:000    2. BEB9FAC0: 'MCFG', 'A M I', Rev: 1, Len: 60
+71:473  0:000    3. BEB9FB00: 'HPET', 'A M I', Rev: 1, Len: 56
+71:473  0:000    4. BEB9FB38: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+71:473  0:000    5. BEB9FEA8: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2474
+71:473  0:000    6. BEBA0858: 'SSDT', 'CpuPm', Rev: 1, Len: 2706
+71:473  0:000    7. BEBA12F0: 'DMAR', 'SNB', Rev: 1, Len: 176
+71:473  0:000    8. BEBA13F8: 'BGRT', 'A M I', Rev: 0, Len: 56
+71:473  0:000    Tables in Rsdt: 9
+71:473  0:000    0. BEB950F8: 'FACP', 'A M I', Rev: 2, Len: 132
+71:473  0:000        (Dsdt: BEB95180, Facs: BEBBFF40)
+71:473  0:000        BEB95180: 'DSDT', 'A M I', Rev: 2, Len: 42928
+71:475  0:001        BEBBFF40: 'FACS', Ver: 0, Len: 64
+71:475  0:000    1. BEB9FA28: 'APIC', 'A M I', Rev: 3, Len: 146
+71:475  0:000    2. BEB9FAC0: 'MCFG', 'A M I', Rev: 1, Len: 60
+71:475  0:000    3. BEB9FB00: 'HPET', 'A M I', Rev: 1, Len: 56
+71:475  0:000    4. BEB9FB38: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+71:475  0:000    5. BEB9FEA8: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2474
+71:475  0:000    6. BEBA0858: 'SSDT', 'CpuPm', Rev: 1, Len: 2706
+71:475  0:000    7. BEBA12F0: 'DMAR', 'SNB', Rev: 1, Len: 176
+71:475  0:000    8. BEBA13F8: 'BGRT', 'A M I', Rev: 0, Len: 56
